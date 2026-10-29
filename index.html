@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>First Weeks at UTS</title>
+<meta name="description" content="A student made guide to finding the right UTS support service.">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #222222;
+  --muted: #666666;
+  --line: #e2e2e2;
+  --link: #1a5fb4;
+  --note: #fff6c9;
+  --note-line: #e8d27a;
+  --warn: #c0392b;
+  --code: #f3f3f3;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1c1c1e; --fg: #e8e8e8; --muted: #a0a0a0; --line: #3a3a3c; --link: #79a8f0;
+    --note: #3a3520; --note-line: #6b5f2a; --warn: #ef7b6f; --code: #2a2a2d; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1c1c1e; --fg: #e8e8e8; --muted: #a0a0a0; --line: #3a3a3c; --link: #79a8f0;
+  --note: #3a3520; --note-line: #6b5f2a; --warn: #ef7b6f; --code: #2a2a2d; color-scheme: dark;
+}
+body { margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+}
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 32px 60px;
+}
+h1 { font-size: 2rem; margin: 0 0 4px; }
+h2 { font-size: 1.35rem; margin: 36px 0 8px; padding-top: 20px; border-top: 1px solid var(--line); }
+h2.first { border-top: none; padding-top: 0; }
+p, ul, ol { margin: 0 0 12px; }
+ul, ol { padding-left: 1.4em; }
+li { margin-bottom: 4px; }
+a { color: var(--link); }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.small { color: var(--muted); font-size: 0.92rem; }
+.note { background: var(--note); border: 1px solid var(--note-line); padding: 12px 14px; border-radius: 4px; margin: 16px 0; }
+.emergency { border-left: 4px solid var(--warn); padding: 4px 0 4px 14px; margin: 16px 0; }
+.emergency strong { color: var(--warn); }
+.go { margin-bottom: 6px; }
+.info { list-style: none; padding: 0; margin: 8px 0 12px; }
+.info li { margin-bottom: 2px; }
+.info b { display: inline-block; min-width: 68px; }
+.num { background: var(--code); padding: 1px 5px; border-radius: 3px; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.toc { columns: 2; column-gap: 28px; }
+@media (max-width: 560px) { .toc { columns: 1; } h1 { font-size: 1.7rem; } }
+footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); }
+</style>
+
+
+</head>
+<body>
+<main>
+
+<h1>First Weeks at UTS</h1>
+<p class="small">A guide by Rizwan · last updated 29 October 2026</p>
+
+<p>Hi! I'm Rizwan, a Master of IT student at UTS. When I moved to Sydney from overseas in July 2025, I noticed UTS has a lot of support services, but they're spread across so many pages that it's hard to know where to start. So I put the main ones in one place, sorted by the problem you're actually dealing with.</p>
+
+<div class="note">This isn't an official UTS page. I checked everything against the UTS website, but hours and rules change, so click through to the official page before relying on a detail.</div>
+
+<h2 class="first">In an emergency</h2>
+<div class="emergency">
+  <p><strong>If someone is in immediate danger, call 000.</strong></p>
+  <ul>
+    <li>UTS Security (24 hours): <span class="num">1800 249 559</span></li>
+    <li>NSW Mental Health Line (24 hours): <span class="num">1800 011 511</span></li>
+    <li>Lifeline (24 hours): <span class="num">13 11 14</span></li>
+    <li>UTS gender based violence support line: <span class="num">1800 531 626</span> (weekdays 9am to 5pm, UTS Security after hours)</li>
+  </ul>
+  <p class="small">Full list: <a href="https://www.uts.edu.au/for-students/current-students/support/contacts/emergency-contacts" target="_blank" rel="noopener">UTS emergency contacts</a></p>
+</div>
+
+<h2>Jump to</h2>
+<ul class="toc">
+  <li><a href="#stressed">Stressed or not coping</a></li>
+  <li><a href="#unwell">Feeling sick</a></li>
+  <li><a href="#access">Disability or ongoing condition</a></li>
+  <li><a href="#writing">Stuck on an assignment</a></li>
+  <li><a href="#hard-subject">A subject is really hard</a></li>
+  <li><a href="#affected">Life is affecting your marks</a></li>
+  <li><a href="#money">Money is tight</a></li>
+  <li><a href="#admin">Enrolment, fees or ID card</a></li>
+  <li><a href="#visa">Visa or CoE questions</a></li>
+  <li><a href="#lonely">Don't know anyone yet</a></li>
+  <li><a href="#career">Jobs and resumes</a></li>
+  <li><a href="#friend">If a friend is struggling</a></li>
+</ul>
+
+<h2 id="stressed">Feeling stressed, anxious or just not coping</h2>
+<p class="go"><b>Go to: Counselling Service</b></p>
+<p>Free and confidential, for personal, study or life stuff. It's usually short term support (around four sessions), and they'll talk to you about longer term help if you need it. You can do it in person, over the phone or on Zoom.</p>
+<ul class="info">
+  <li><b>Where:</b> Building 1, Level 6</li>
+  <li><b>Phone:</b> <span class="num">9514 1177</span></li>
+  <li><b>Email:</b> <span class="num">student.wellbeing@uts.edu.au</span></li>
+  <li><b>Hours:</b> Mon to Wed 8.30am to 8.30pm, Thu 9am to 8pm, Fri 9am to 5pm</li>
+</ul>
+<p>When I checked, the wait for a first appointment was about 5 working days, so book early. If it's urgent, call reception and tell them.</p>
+<p><a href="https://www.uts.edu.au/for-students/current-students/support/counselling-service-and-self-help/contact-us" target="_blank" rel="noopener">Counselling Service page</a></p>
+
+<h2 id="unwell">Feeling sick and need a doctor</h2>
+<p class="go"><b>Go to: UTS Health Service</b></p>
+<p>There's a GP clinic right on campus with doctors and nurses. You need to book. Heads up: from 1 January 2027 they're moving to mixed billing for some patients, so ask about the cost when you book.</p>
+<ul class="info">
+  <li><b>Where:</b> Building 1 (the Tower), Level 6</li>
+  <li><b>Phone:</b> <span class="num">9514 1177</span></li>
+  <li><b>Hours:</b> Mon to Fri 8.30am to 5pm</li>
+</ul>
+<p><a href="https://www.uts.edu.au/current-students/support/health-and-wellbeing/health-service" target="_blank" rel="noopener">Health Service page</a></p>
+
+<h2 id="access">You have a disability or an ongoing health or mental health condition</h2>
+<p class="go"><b>Go to: Accessibility Service</b></p>
+<p>Once you register with them, they can set up adjustments for your classes and assessments. What you tell them stays private from general admin staff and doesn't show up on your transcript.</p>
+<ul class="info">
+  <li><b>Phone:</b> <span class="num">9514 1177</span></li>
+  <li><b>Email:</b> <span class="num">accessibility@uts.edu.au</span></li>
+  <li><b>How:</b> on campus, Zoom or phone</li>
+</ul>
+<p><a href="https://www.uts.edu.au/for-students/current-students/support/students-with-accessibility-requirements" target="_blank" rel="noopener">Accessibility Service page</a></p>
+
+<h2 id="writing">Stuck on an assignment or your writing</h2>
+<p class="go"><b>Go to: HELPS</b> (Higher Education Language and Presentation Support)</p>
+<p>They help with academic writing and English for both undergrad and postgrad coursework students. You can drop in or book a time to get advice on an assignment, join their workshops, or practise speaking at Conversations@UTS.</p>
+<ul class="info">
+  <li><b>Where:</b> Building 1, Level 5, Room 25</li>
+  <li><b>Phone:</b> <span class="num">9514 9733</span></li>
+  <li><b>Email:</b> <span class="num">helps@uts.edu.au</span></li>
+</ul>
+<p><a href="https://www.uts.edu.au/for-students/current-students/support/helps/higher-education-language-and-presentation-support" target="_blank" rel="noopener">HELPS page</a></p>
+
+<h2 id="hard-subject">One subject is way harder than the others</h2>
+<p class="go"><b>Go to: U:PASS</b></p>
+<p>Free study sessions for subjects that a lot of students find tough. They're run by students who already did well in that subject, so it's more relaxed than a tutorial and you can ask the "dumb" questions. Anyone enrolled in a covered subject can go. Check their subject list to see if yours is on it.</p>
+<ul class="info">
+  <li><b>Email:</b> <span class="num">upass@uts.edu.au</span></li>
+</ul>
+<p><a href="https://www.uts.edu.au/for-students/current-students/support/upass" target="_blank" rel="noopener">U:PASS page</a></p>
+
+<h2 id="affected">Something outside your control is affecting your marks</h2>
+<p class="go"><b>Go to: Short extensions or special consideration</b></p>
+<ul>
+  <li><b>If you only need a few days (under 72 hours):</b> check if your assessment has the Short Extension tool in Canvas. You have to request it before 11:59pm on the due date. No documents needed.</li>
+  <li><b>If you need longer, or an exam was affected:</b> apply for special consideration in My Student Portal and attach supporting documents (like a medical certificate). For assignments, apply before the due date. Exam deadlines are much shorter, sometimes just 2 working days.</li>
+</ul>
+<p>Things like illness, a death in the family or hardship can count. Work shifts, late trains and personal events don't.</p>
+<p><a href="https://www.uts.edu.au/for-students/current-students/managing-your-course/attendance-and-study-load/special-circumstances/special-consideration" target="_blank" rel="noopener">Special consideration page</a></p>
+
+<h2 id="money">Money is tight</h2>
+<p class="go"><b>Go to: Financial Assistance Service</b></p>
+<p>They give confidential advice on money stuff related to study, and they run loans, grants and grocery vouchers (each has its own eligibility rules, so read the guidelines or book a chat first). The UTS Students' Association also runs a free food pantry.</p>
+<ul class="info">
+  <li><b>Phone:</b> <span class="num">9514 1177</span></li>
+  <li><b>Email:</b> <span class="num">financial.assistance@uts.edu.au</span></li>
+  <li><b>Hours:</b> appointments Mon to Fri 9.30am to 4.30pm, on campus, Zoom or phone</li>
+</ul>
+<p><a href="https://www.uts.edu.au/for-students/current-students/support/financial-help/financial-assistance-service" target="_blank" rel="noopener">Financial Assistance page</a></p>
+
+<h2 id="admin">Questions about enrolment, fees, your timetable or student card</h2>
+<p class="go"><b>Go to: UTS Student Centre</b></p>
+<p>Call them for same day answers (they'll call you back if it's busy), visit in person, or use Ask UTS online for complicated stuff. Start of session is their busiest time, so book an appointment if you're going in person.</p>
+<ul class="info">
+  <li><b>Where:</b> Building 10, Level 2 (Jones St entrance)</li>
+  <li><b>Phone:</b> <span class="num">1300 275 887</span> (1300 ASK UTS)</li>
+  <li><b>Online:</b> <a href="https://ask.uts.edu.au" target="_blank" rel="noopener">ask.uts.edu.au</a> (replies can take a few days)</li>
+  <li><b>Hours:</b> Mon to Fri 10am to 4pm</li>
+</ul>
+<p><a href="https://www.uts.edu.au/for-students/current-students/support/contacts" target="_blank" rel="noopener">Student Centre page</a></p>
+
+<h2 id="visa">International student with a visa or CoE question</h2>
+<p class="go"><b>Go to: UTS International Student Centre</b></p>
+<p>They can help with a Confirmation of Enrolment for a visa extension, student verification letters, statements of course completion and general student visa questions.</p>
+<ul class="info">
+  <li><b>Phone:</b> <span class="num">+61 2 9514 1531</span></li>
+  <li><b>Email:</b> <span class="num">internationalstudent@uts.edu.au</span></li>
+</ul>
+<p><a href="https://www.uts.edu.au/contact-us/international-students" target="_blank" rel="noopener">International students contact page</a></p>
+
+<h2 id="lonely">You don't know anyone yet</h2>
+<p>Honestly, this is really common, especially if you've moved from another city or country. A few easy ways in:</p>
+<ul>
+  <li><b>Peer Network Café:</b> a weekly drop in for new students with free tea and coffee, run by current students for the first five weeks of Autumn and Spring. (<a href="https://www.uts.edu.au/for-students/current-students/support/campus-life/ways-meet-people" target="_blank" rel="noopener">details</a>)</li>
+  <li><b>ActivateUTS clubs:</b> over 180 clubs and societies, from cultural clubs to sport and random hobbies. (<a href="https://www.activateuts.com.au/clubs" target="_blank" rel="noopener">browse clubs</a>)</li>
+  <li><b>Conversations@UTS:</b> casual English speaking practice run by HELPS, and a nice low pressure way to meet people.</li>
+</ul>
+
+<h2 id="career">Need help with jobs, resumes or interviews</h2>
+<p class="go"><b>Go to: UTS Careers</b></p>
+<p>You can just walk in for a free 15 minute chat with a Peer Career Advisor (they're trained UTS students) about your resume, job applications or what to do next. You can also book online.</p>
+<ul class="info">
+  <li><b>Where:</b> Building 2, Level 4, Room 221</li>
+  <li><b>Hours:</b> Mon to Thu 10am to 4pm</li>
+</ul>
+<p><a href="https://www.uts.edu.au/for-students/current-students/support/opportunities/careers/one-one-career-support" target="_blank" rel="noopener">Career support page</a></p>
+
+<h2 id="friend">If a friend is struggling</h2>
+<p>You don't have to solve their problem for them. What helps most is listening and helping them get to the right person.</p>
+<ol>
+  <li><b>Listen first.</b> Let them explain in their own words before you jump in with advice.</li>
+  <li><b>Ask what would help.</b> Do they need someone to talk to, help with study, help with money, or just a quick admin answer?</li>
+  <li><b>Make the next step easy.</b> Send them the right section of this page, or offer to look up the number or book the appointment with them.</li>
+  <li><b>Know when it's bigger than you.</b> If they might be at risk, call 000 or UTS Security. If you're worried about their safety, you can call the Counselling Service on <span class="num">9514 1177</span> and ask to speak with a counsellor.</li>
+</ol>
+
+<footer>
+  <p class="small">Made by Rizwan Reaz Mohammed, UTS student. Not an official UTS publication. Spotted something out of date? Let me know through <a href="https://github.com/rizwanreaz" target="_blank" rel="noopener">my GitHub</a>.</p>
+</footer>
+
+</main>
+
+</body>
+</html>
